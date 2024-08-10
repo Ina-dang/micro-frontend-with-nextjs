@@ -9,7 +9,7 @@ const nextConfig = {
         name: "ashop_app",
         remotes: {},
         filename: "static/chunks/remoteEntry.js",
-        exposes: {},
+        exposes: { "./Products": "./components/Products.js" },
         extraOptions: {
           debug: false, // 'false' by default
           exposePages: false, // 'false' by default
