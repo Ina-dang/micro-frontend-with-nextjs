@@ -1,7 +1,5 @@
+import Products from "@/components/Products";
+
 export default function Home() {
-  return (
-    <main className="h-[100vh] flex justify-center items-center">
-      Hello shop app
-    </main>
-  );
+  return <Products />;
 }
